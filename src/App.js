@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar/Navbar';
 import {Routes, Route} from 'react-router-dom'
 import Animation from './ThreeJSComponents/Animation';
 import AnimationPractice from './ThreeJSComponents/Animation';
+import Forum from './ThreeJSComponents/Forum';
 function App() {
  
   return (<div style={{height:"100vh"}}>
@@ -27,6 +28,9 @@ function App() {
       </div>}></Route>
       <Route path="/animation" element={ 
         <AnimationPractice></AnimationPractice>
+      } />
+      <Route path="/forum" element={ 
+        <Forum></Forum>
       }/>
     </Routes>
     </div>
